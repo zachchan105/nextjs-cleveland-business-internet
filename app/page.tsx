@@ -30,7 +30,7 @@ export default function Home() {
           </p>
           <a 
             href="#" 
-            className="inline-block px-4 py-2 mt-6 text-sm font-semibold text-blue-600 bg-white rounded-lg sm:px-6 sm:py-3 sm:text-lg hover:bg-gray-200"
+            className="inline-block px-4 py-2 mt-6 text-sm font-semibold text-[#e84c42] bg-white rounded-lg sm:px-6 sm:py-3 sm:text-lg hover:bg-gray-200"
           >
             Learn More
           </a>
@@ -61,22 +61,22 @@ export default function Home() {
       {/* Services Section */}
       <section className="w-full py-8 sm:py-12 bg-gray-800">
         <div className="max-w-6xl mx-auto text-center px-4">
-          <h2 className="mb-6 text-2xl font-bold text-gray-800 text-white sm:text-4xl">Our Services</h2>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 mt-16">
+          <h2 className="mb-6 text-2xl font-bold text-white sm:text-4xl">Our Services</h2>
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 mt-10">
             <div>
-              <h3 className="mb-3 text-xl font-semibold text-gray-700 text-white sm:text-2xl">Network Management</h3>
-              <p className="text-gray-600 text-white text-sm sm:text-base">CBI can manage your network for a small monthly fee and ensure everything is working smoothly.</p>
+              <h3 className="mb-3 text-xl font-semibold text-white sm:text-2xl">Network Management</h3>
+              <p className="text-white text-sm sm:text-base">CBI can manage your network for a small monthly fee and ensure everything is working smoothly.</p>
             </div>
             <div>
-              <h3 className="mb-3 text-xl font-semibold text-gray-700 text-white sm:text-2xl">Price Shopping</h3>
-              <p className="text-gray-600 text-white text-sm sm:text-base">CBI seeks out the best prices for your business internet connection, offering discounts on solid and fast internet connections.</p>
+              <h3 className="mb-3 text-xl font-semibold text-white sm:text-2xl">Price Shopping</h3>
+              <p className="text-white text-sm sm:text-base">CBI seeks out the best prices for your business internet connection, offering discounts on solid and fast internet connections.</p>
             </div>
             <div>
-              <h3 className="mb-3 text-xl font-semibold text-gray-700 text-white sm:text-2xl">Top Speeds</h3>
-              <p className="text-gray-600 text-sm text-white sm:text-base">CBI tailors internet package speeds to your business so that you get the best possible speeds without breaking the bank.</p>
+              <h3 className="mb-3 text-xl font-semibold text-white sm:text-2xl">Top Speeds</h3>
+              <p className="text-white text-sm sm:text-base">CBI tailors internet package speeds to your business so that you get the best possible speeds without breaking the bank.</p>
             </div>
           </div>
-          <a href="#" className="inline-block px-4 py-2 mt-6 text-sm font-semibold text-white bg-blue-600 rounded-lg sm:px-6 sm:py-3 sm:text-lg hover:bg-blue-700">Explore All Services</a>
+          <a href="#" className="inline-block px-4 py-2 mt-6 text-sm font-semibold text-white bg-[#e84c42] rounded-lg sm:px-6 sm:py-3 sm:text-lg hover:bg-[#d43a34]">Explore All Services</a>
         </div>
       </section>
 
@@ -106,31 +106,31 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="w-full py-8 sm:py-12 bg-gray-50">
+      <section className="w-full py-8 sm:py-12 bg-gray-800">
         <div className="max-w-6xl mx-auto text-center px-4">
-          <h2 className="mb-6 text-2xl font-bold text-gray-800 sm:text-3xl">Get in Touch</h2>
+          <h2 className="mb-6 text-2xl font-bold text-gray-800 text-white sm:text-3xl">Get in Touch</h2>
           <form className="grid grid-cols-1 gap-4 sm:gap-6"> {/* Adjusted gap for mobile */}
             <input
               type="text"
               placeholder="Name"
-              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-blue-600 sm:text-base sm:py-3"
+              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-[#e84c42] sm:text-base sm:py-3"
             />
             <input
               type="email"
               placeholder="Email"
-              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-blue-600 sm:text-base sm:py-3"
+              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-[#e84c42] sm:text-base sm:py-3"
             />
             <input
               type="tel"
               placeholder="Phone Number"
-              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-blue-600 sm:text-base sm:py-3"
+              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-[#e84c42] sm:text-base sm:py-3"
             />
             <textarea
               placeholder="Message"
               rows={4}
-              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-blue-600 sm:text-base sm:py-3"
+              className="w-full px-4 py-2 text-sm border rounded-lg focus:ring-2 focus:ring-[#e84c42] sm:text-base sm:py-3"
             ></textarea>
-            <button type="submit" className="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-lg sm:px-6 sm:py-3 sm:text-lg hover:bg-blue-700">
+            <button type="submit" className="px-4 py-2 text-sm font-semibold text-white bg-[#e84c42] rounded-lg sm:px-6 sm:py-3 sm:text-lg hover:bg-[#d43a34]">
               Send Message
             </button>
           </form>

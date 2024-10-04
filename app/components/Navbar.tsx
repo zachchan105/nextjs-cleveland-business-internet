@@ -6,17 +6,18 @@ import { useRouter } from "next/navigation"; // Using useRouter from next/naviga
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter(); // Using useRouter for navigation
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const handleNavigation = (path: string) => {
-    router.push(path); // Navigate to the new route
-    setIsOpen(false);  // Close the mobile menu
+    router.push(path);
+    setIsOpen(false);
   };
 
   return (
